@@ -9,7 +9,7 @@ public class Test {
         while(copyOfX != 0) {
             invertedNumber = invertedNumber * 10 + copyOfX % 10; // 351
             copyOfX = copyOfX / 10;
-        }
+        }//
 
         System.out.println(invertedNumber == x);
     }
