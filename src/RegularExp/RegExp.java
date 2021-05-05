@@ -22,6 +22,7 @@ public class RegExp {
 
         String d = "Hello12312there123124hey312312";
         String modString = d.replaceAll("\\d+", "-");
+
         System.out.println(modString);
 
         String modString2 = d.replaceFirst("\\d+", ".");
